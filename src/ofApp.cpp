@@ -34,8 +34,11 @@ void ofApp::setup() {
 #endif
 	
 	colorImg.allocate(kinect.width, kinect.height);
-	grayImage.allocate(kinect.width, kinect.height);
-	grayThreshNear.allocate(kinect.width, kinect.height);
+    grayImage.allocate(kinect.width, kinect.height);
+    grayPrevImage.allocate(kinect.width, kinect.height);
+	diffImage.allocate(kinect.width, kinect.height);
+	
+    grayThreshNear.allocate(kinect.width, kinect.height);
 	grayThreshFar.allocate(kinect.width, kinect.height);
 	
 	nearThreshold = 230;
@@ -72,6 +75,8 @@ void ofApp::update() {
 			grayThreshFar = grayImage;
 			grayThreshNear.threshold(nearThreshold, true);
 			grayThreshFar.threshold(farThreshold);
+            diffImage.absDiff(grayImage, grayPrevImage);
+            grayPrevImage = grayImage;
 			cvAnd(grayThreshNear.getCvImage(), grayThreshFar.getCvImage(), grayImage.getCvImage(), NULL);
 		} else {
 			
@@ -112,11 +117,15 @@ void ofApp::draw() {
 	} else {
 		// draw from the live kinect
 		kinect.drawDepth(10, 10, 400, 300);
-		kinect.draw(420, 10, 400, 300);
+
+        kinect.draw(420, 10, 400, 300);
 		
 		grayImage.draw(10, 320, 400, 300);
 		contourFinder.draw(10, 320, 400, 300);
-		
+
+        diffImage.draw(420, 320, 400, 300);
+        contourFinder.draw(42p0, 320, 400, 300);
+
 #ifdef USE_TWO_KINECTS
 		kinect2.draw(420, 320, 400, 300);
 #endif

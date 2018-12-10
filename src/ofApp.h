@@ -50,7 +50,10 @@ public:
 	ofxCvColorImage colorImg;
 	
 	ofxCvGrayscaleImage grayImage; // grayscale depth image
-	ofxCvGrayscaleImage grayThreshNear; // the near thresholded image
+    ofxCvGrayscaleImage grayPrevImage; // previous grayscale depth image
+    ofxCvGrayscaleImage diffImage; // diff between current depth image and rest
+
+    ofxCvGrayscaleImage grayThreshNear; // the near thresholded image
 	ofxCvGrayscaleImage grayThreshFar; // the far thresholded image
 	
 	ofxCvContourFinder contourFinder;
