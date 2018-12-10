@@ -57,6 +57,7 @@ public:
 	ofxCvGrayscaleImage grayThreshFar; // the far thresholded image
 	
 	ofxCvContourFinder contourFinder;
+    ofxCvContourFinder contourFinderDiff;
 	
 	bool bThreshWithOpenCV;
 	bool bDrawPointCloud;

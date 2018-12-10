@@ -98,6 +98,8 @@ void ofApp::update() {
 		// find contours which are between the size of 20 pixels and 1/3 the w*h pixels.
 		// also, find holes is set to true so we will get interior contours as well....
 		contourFinder.findContours(grayImage, 10, (kinect.width*kinect.height)/2, 20, false);
+        diffImage.threshold(70);
+        contourFinderDiff.findContours(diffImage, 30, (kinect.width*kinect.height)/2, 10, false);
 	}
 	
 #ifdef USE_TWO_KINECTS
@@ -124,7 +126,7 @@ void ofApp::draw() {
 		contourFinder.draw(10, 320, 400, 300);
 
         diffImage.draw(420, 320, 400, 300);
-        contourFinder.draw(42p0, 320, 400, 300);
+        contourFinderDiff.draw(420, 320, 400, 300);
 
 #ifdef USE_TWO_KINECTS
 		kinect2.draw(420, 320, 400, 300);
