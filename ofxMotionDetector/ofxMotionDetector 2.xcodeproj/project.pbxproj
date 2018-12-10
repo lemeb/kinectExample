@@ -1,0 +1,194 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		0BEF109B21BDCD9C00626A9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0BEF109621BDCD9C00626A9B /* ofxMotionDetector.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E4B69B5B0A3A1756003C02F2;
+			remoteInfo = ofxMotionDetector;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0BEF108B21BDCD9C00626A9B /* openFrameworks-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "openFrameworks-Info.plist"; sourceTree = "<group>"; };
+		0BEF108C21BDCD9C00626A9B /* addons.make */ = {isa = PBXFileReference; lastKnownFileType = text; path = addons.make; sourceTree = "<group>"; };
+		0BEF108D21BDCD9C00626A9B /* .DS_Store */ = {isa = PBXFileReference; lastKnownFileType = file; path = .DS_Store; sourceTree = "<group>"; };
+		0BEF108E21BDCD9C00626A9B /* bin */ = {isa = PBXFileReference; lastKnownFileType = folder; path = bin; sourceTree = "<group>"; };
+		0BEF108F21BDCD9C00626A9B /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		0BEF109021BDCD9C00626A9B /* example */ = {isa = PBXFileReference; lastKnownFileType = folder; path = example; sourceTree = "<group>"; };
+		0BEF109121BDCD9C00626A9B /* config.make */ = {isa = PBXFileReference; lastKnownFileType = text; path = config.make; sourceTree = "<group>"; };
+		0BEF109221BDCD9C00626A9B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0BEF109321BDCD9C00626A9B /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		0BEF109421BDCD9C00626A9B /* .gitattributes */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitattributes; sourceTree = "<group>"; };
+		0BEF109521BDCD9C00626A9B /* Project.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Project.xcconfig; sourceTree = "<group>"; };
+		0BEF109621BDCD9C00626A9B /* ofxMotionDetector.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = ofxMotionDetector.xcodeproj; sourceTree = "<group>"; };
+		0BEF109921BDCD9C00626A9B /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; path = src; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0BEF108521BDCD9C00626A9B = {
+			isa = PBXGroup;
+			children = (
+				0BEF108B21BDCD9C00626A9B /* openFrameworks-Info.plist */,
+				0BEF108C21BDCD9C00626A9B /* addons.make */,
+				0BEF108D21BDCD9C00626A9B /* .DS_Store */,
+				0BEF108E21BDCD9C00626A9B /* bin */,
+				0BEF108F21BDCD9C00626A9B /* Makefile */,
+				0BEF109021BDCD9C00626A9B /* example */,
+				0BEF109121BDCD9C00626A9B /* config.make */,
+				0BEF109221BDCD9C00626A9B /* README.md */,
+				0BEF109321BDCD9C00626A9B /* .gitignore */,
+				0BEF109421BDCD9C00626A9B /* .gitattributes */,
+				0BEF109521BDCD9C00626A9B /* Project.xcconfig */,
+				0BEF109621BDCD9C00626A9B /* ofxMotionDetector.xcodeproj */,
+				0BEF109921BDCD9C00626A9B /* src */,
+			);
+			sourceTree = "<group>";
+		};
+		0BEF109721BDCD9C00626A9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0BEF109C21BDCD9C00626A9B /* ofxMotionDetectorDebug.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		0BEF108A21BDCD9C00626A9B /* ofxMotionDetector */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 0BEF109D21BDCD9C00626A9B /* Build configuration list for PBXLegacyTarget "ofxMotionDetector" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = /Users/l/software/of_v0.10.1_osx_release/addons/ofxMotionDetector;
+			dependencies = (
+			);
+			name = ofxMotionDetector;
+			passBuildSettingsInEnvironment = 1;
+			productName = ofxMotionDetector;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		0BEF108621BDCD9C00626A9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = 0BEF108921BDCD9C00626A9B /* Build configuration list for PBXProject "ofxMotionDetector 2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0BEF108521BDCD9C00626A9B;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 0BEF109721BDCD9C00626A9B /* Products */;
+					ProjectRef = 0BEF109621BDCD9C00626A9B /* ofxMotionDetector.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				0BEF108A21BDCD9C00626A9B /* ofxMotionDetector */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		0BEF109C21BDCD9C00626A9B /* ofxMotionDetectorDebug.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = ofxMotionDetectorDebug.app;
+			remoteRef = 0BEF109B21BDCD9C00626A9B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin XCBuildConfiguration section */
+		0BEF108721BDCD9C00626A9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		0BEF108821BDCD9C00626A9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		0BEF109E21BDCD9C00626A9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = ofxMotionDetector;
+			};
+			name = Debug;
+		};
+		0BEF109F21BDCD9C00626A9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = ofxMotionDetector;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0BEF108921BDCD9C00626A9B /* Build configuration list for PBXProject "ofxMotionDetector 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BEF108721BDCD9C00626A9B /* Debug */,
+				0BEF108821BDCD9C00626A9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0BEF109D21BDCD9C00626A9B /* Build configuration list for PBXLegacyTarget "ofxMotionDetector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BEF109E21BDCD9C00626A9B /* Debug */,
+				0BEF109F21BDCD9C00626A9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0BEF108621BDCD9C00626A9B /* Project object */;
+}
